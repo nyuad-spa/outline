@@ -1,16 +1,41 @@
-| Week | M | Tuesday | W | Thursday | F |
-| :---: | --- | --- | --- | --- | --- |
-| 07.01–11.01 | | Intro + Sample Analyses | | Intermediate Representations | | 
-| 14.01–18.01 | | Lattices and Fixpoints | | Intra-procedural Analysis | | 
-| 21.01–25.01 | | Type-based Call Graph Construction |  | Propagation-based Call Graph Construction | `A1` | 
-| 28.01–01.02 | | Pointer Analysis | | Alias Analysis | | 
-| 04.02–08.02 | | Inter-procedural Analysis | | Inter-procedural Analysis |  | 
-| 11.02–15.02 | | `Project Proposals` | | `Project Proposals` | `A2` | 
-| 18.02–22.02 | | **This** | **is** | **reading** | **week.** | 
-| 25.02–01.03 | | Context-Sensitivity with Call Strings Approach | | Context-Sensitivity with Functional Approach | | 
-| 04.03–08.03 | | Inter-procedural Finite Distributed Subset problems (IFDS) | | Inter-procedural Distributed Environment problems (IDE) | | 
-| 11.03–15.03 | | Non-Distributive Analyses | | Usability of Program Analysis Tools | `A3` | 
-| 18.03–22.03 | | Paper Discussions (Usability) |  | Paper Discussions (Security) | | 
-| 25.03–29.03 | | Paper Discussions (Dynamic Languages) | | Paper Discussions (Predictive Program Analysis) | | 
-| 01.04–05.04 | | Paper Discussions (Program Synthesis) | | Paper Discussions (Probabilistic Programming) | | 
-| 08.04–12.04 | | `Project Presentations` | | `Project Presentations` | `Project Report` | 
+### Notes
+- The distribution of lecture content in this schedule is tentative and is subject to change throughout the semester depending on how the flow of each lecture goes.
+- All submissions are due at **5pm** on the deadline.
+
+### Legend
+- `A`: a course deliverable that **counts** towards your final grade.
+- [B](#): a lecture topic.
+- C: a text-book reading.
+
+### Topics
+- T0: Introduction
+- T1: Intermediate Representations
+- T2: Intra-Procedural Analysis
+- T3: Call Graph Construction
+- T4: Pointer Analysis
+- T5: Inter-Procedural Analysis
+- T6: Context Sensitivity
+- T7: Inter-procedural Finite Distribute Subset Problems (IFDS)
+- T8: Inter-procedural Distributed Environments (IDE)
+- T9: Synchronized Pushdown Systems
+
+### Schedule
+
+| Week        | Monday                                      | Tuesday | Wednesday                                                                 | Thursday | Friday                 |
+|-------------|---------------------------------------------|---------|---------------------------------------------------------------------------|----------|------------------------|
+| 20.01-24.01 |                                             |         | T0 => end                                                                 |          |                        |
+| 27.01-31.01 | T1 => end<br>[SPA] § 2                      |         | T2 => Intra-procedural analysis                                           |          |                        |
+| 03.02-07.02 | T2 => Lattice Theory 1<br>[SPA] § 4, 5      |         | T2 => end<br>[SPA] § 4, 5                                                 |          | `A1`                   |
+| 10.02-14.02 | T3 => call graph construction               |         | T3 => end<br>T3: [hands-on](https://github.com/nyuad-spa/hands-on)        |          | `A0.0`                 |
+| 17.02-21.02 | T4 => end<br>[SPA] § 11                     |         | **No Class**                                                              |          | `A2`                   |
+| 24.02-28.02 | T5 => end<br>[SPA] § 8                      |         | T6 => end<br>[SPA] § 8                                                     |          | `A3`                   |
+| 03.03-07.03 | T7 => end<br>[SPA] § 9                      |         | T8 => end<br>[SPA] § 9                                                     |          | `A4`<br>`A0.1`         |
+| 10.03-14.03 | **<= No Classes =>**                                                                                                                  |          |          |          |                        |
+| 17.03-21.03 | T9: hands-on                                |         | How to Present!                                                           |          | `A5`                   |
+| 24.03-28.03 | Office Hours (Presentations)                |         | `Proposal Presentations` [📅](/d2l/le/lessons/434328/topics/11356537)      |          | `Proposal Document`    |
+| 31.03-04.04 | **<= Eid Al-Fitr Holiday =>**                                                                                                          |          |          |          |                        |
+| 07.04-11.04 | `Paper Seminars` [📅](#) |         | `Paper Seminars` [📅](#)             |          |                        |
+| 14.04-18.04 | `Paper Seminars` [📅](#) |         | `Paper Seminars` [📅](#)             |          | `A6`                   |
+| 21.04-25.04 | `Paper Seminars` [📅](#) |         | `Paper Seminars` [📅](#)             |          | `A7`                   |
+| 28.04-02.05 | Guest Lecture  |         | Guest Lecture                                |          |                        |
+| 05.05-09.05 | `Final Presentations` [📅](#) |         | `Final Presentations` [📅](#)        |          | `Final Report`         |
