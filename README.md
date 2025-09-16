@@ -1,6 +1,5 @@
 ## General Information
-- **Term:** Spring 2025
-- **Credits:** 4
+- **Credits:** 3
 - **Prerequisites:** Algorithms (CS-UH 1052) and Software Engineering (CS-UH 2012)
 - **Corequisites:** None
 
